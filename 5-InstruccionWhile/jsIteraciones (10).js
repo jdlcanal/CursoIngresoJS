@@ -95,7 +95,7 @@ function mostrar()
 		{
 			mejorNota=notaAlumno;
 			peorNota=notaAlumno;
-			edadPrimerAlumno=edad;
+			
 		}
 		else
 		{
