@@ -3,23 +3,19 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var respuesta='si';
-
-while (contador < 100){
+    
+    
+while (contador > -1){
 		contador++;
 		
-		var numero = prompt("Ingrese Número:");
+		var numero = prompt("Ingrese Número, para terminar escriba cualquier letra");
+        
+    		numero = parseInt(numero);
 
-		numero = parseInt(numero);
-
-			if (isNaN(respuesta)){
-				alert ("No se pedirá más números");
-				break;
-			} else {
-				alert ("Error");
-				break;
-			}
-
+			if(isNaN(numero)){
+                alert("No escribir más números");
+                break;
+            }
 		acumulador += numero;
 	}
 
