@@ -1,6 +1,6 @@
 function mostrar()
 {
-    for(i=0; i<10; i++){
+    for(i=0; i<11; i++){
         document.write(" El numero es " + i + ", ");
     }
 }

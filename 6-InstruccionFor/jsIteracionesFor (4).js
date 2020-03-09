@@ -1,7 +1,8 @@
 function mostrar()
 {
-for (i=0; i>1; i++){
-   console.log(i+i);
+var boton=Infinity;
+for (i=0; i=boton; i++){
+   alert("Use break para frenar");
     
 }
 
